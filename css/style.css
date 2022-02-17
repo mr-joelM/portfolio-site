@@ -23,22 +23,56 @@
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25) /* 1st layer of box shadow */,
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15); /* 2sd layer of box shadow */
 
-  --bs2: 0.25em 0 0.4em 0.5em rgba(168, 228, 216, 0.25),
-    -0.25em 0 0.4em 0.5em rgba(168, 228, 216, 0.25),
-    0 0.25em 0.4em 0.5em rgba(168, 228, 216, 0.25),
-    0 -0.25em 0.4em 0.5em rgba(168, 228, 216, 0.25),
-    0.125em 0 0.2em rgba(168, 228, 216, 0.75),
-    -0.125em 0 0.2em rgba(168, 228, 216, 0.75),
-    0 0.125em 0.2em rgba(168, 228, 216, 0.75),
-    0 -0.125em 0.2em rgba(168, 228, 216, 0.75),
-    0 -0.025em 0.05em rgba(1, 19, 27, 0.904),
-    0 0.025em 0.05em rgba(1, 19, 27, 0.904),
-    -0.025em 0 0.05em rgba(1, 19, 27, 0.904),
-    0.025em 0 0.05em rgba(1, 19, 27, 0.904),
-    inset 0.25em 0 0.5em rgba(22, 223, 189, 0.25),
-    inset -0.25em 0 0.5em rgba(22, 223, 189, 0.25),
-    inset 0 0.25em 0.5em rgba(22, 223, 189, 0.25),
-    inset 0 -0.25em 0.5em rgba(22, 223, 189, 0.25),
+  --bs1: 0.125em 0 0.2em 0.25em rgba(168, 228, 216, 0.25),
+    -0.125em 0 0.2em 0.25em rgba(168, 228, 216, 0.25),
+    0 0.125em 0.2em 0.25em rgba(168, 228, 216, 0.25),
+    0 -0.125em 0.2em 0.25em rgba(168, 228, 216, 0.25),
+    0.055em 0 0.2em rgba(168, 228, 216, 0.75),
+    -0.055em 0 0.2em rgba(168, 228, 216, 0.75),
+    0 0.055em 0.2em rgba(168, 228, 216, 0.75),
+    0 -0.055em 0.2em rgba(168, 228, 216, 0.75);
+
+  --bs2: 0.25em 0 1em 0.5em rgba(168, 228, 216, 0.35),
+    -0.25em 0 1em 0.5em rgba(168, 228, 216, 0.35),
+    0 0.25em 1em 0.5em rgba(168, 228, 216, 0.35),
+    0 -0.25em 1em 0.5em rgba(168, 228, 216, 0.35),
+    0.125em 0 1em rgba(168, 228, 216, 0.75),
+    -0.125em 0 1em rgba(168, 228, 216, 0.75),
+    0 0.125em 1em rgba(168, 228, 216, 0.75),
+    0 -0.125em 1em rgba(168, 228, 216, 0.75),
+    0 -0.025em 0.5em rgba(1, 19, 27, 0.9), 0 0.025em 0.5em rgba(1, 19, 27, 0.9),
+    -0.025em 0 0.5em rgba(1, 19, 27, 0.9), 0.025em 0 0.5em rgba(1, 19, 27, 0.9),
+    inset 0.25em 0 1em rgba(22, 223, 189, 0.4),
+    inset -0.25em 0 1em rgba(22, 223, 189, 0.4),
+    inset 0 0.25em 1em rgba(22, 223, 189, 0.4),
+    inset 0 -0.25em 1em rgba(22, 223, 189, 0.4),
+    inset 0.125em 0 0.2em rgba(22, 223, 189, 0.75),
+    inset -0.125em 0 0.2em rgba(22, 223, 189, 0.75),
+    inset 0 0.125em 0.2em rgba(22, 223, 189, 0.75),
+    inset 0 -0.125em 0.2em rgba(22, 223, 189, 0.75),
+    inset 0 -0.025em 0.065em rgba(22, 180, 150, 0.95),
+    inset 0 0.025em 0.065em rgba(22, 180, 150, 0.95),
+    inset -0.025em 0 0.065em rgba(22, 180, 150, 0.95),
+    inset 0.025em 0 0.065em rgba(22, 180, 150, 0.95);
+
+  --bs2-edge: 1.5em 0em 2em 0.25em rgba(255, 255, 255, 0.3),
+    -1.5em 0 2em 0.25em rgba(255, 255, 255, 0.3),
+    0 1.5em 2em 0.25em rgba(255, 255, 255, 0.3),
+    0 -1.5em 2em 0.25em rgba(255, 255, 255, 0.3),
+    0.25em 0 1em 0.5em rgba(168, 228, 216, 0.35),
+    -0.25em 0 1em 0.5em rgba(168, 228, 216, 0.35),
+    0 0.25em 1em 0.5em rgba(168, 228, 216, 0.35),
+    0 -0.25em 1em 0.5em rgba(168, 228, 216, 0.35),
+    0.125em 0 1em rgba(168, 228, 216, 0.75),
+    -0.125em 0 1em rgba(168, 228, 216, 0.75),
+    0 0.125em 1em rgba(168, 228, 216, 0.75),
+    0 -0.125em 1em rgba(168, 228, 216, 0.75),
+    0 -0.025em 0.5em rgba(1, 19, 27, 0.9), 0 0.025em 0.5em rgba(1, 19, 27, 0.9),
+    -0.025em 0 0.5em rgba(1, 19, 27, 0.9), 0.025em 0 0.5em rgba(1, 19, 27, 0.9),
+    inset 0.25em 0 1em rgba(22, 223, 189, 0.4),
+    inset -0.25em 0 1em rgba(22, 223, 189, 0.4),
+    inset 0 0.25em 1em rgba(22, 223, 189, 0.4),
+    inset 0 -0.25em 1em rgba(22, 223, 189, 0.4),
     inset 0.125em 0 0.2em rgba(22, 223, 189, 0.75),
     inset -0.125em 0 0.2em rgba(22, 223, 189, 0.75),
     inset 0 0.125em 0.2em rgba(22, 223, 189, 0.75),
@@ -104,9 +138,8 @@ strong {
 }
 
 .btn:hover {
-  animation: pulse 1s;
+  animation: pulse 2s infinite;
   transform: scale(1.1);
-  box-shadow: var(--bs2);
 }
 
 /*typography */
@@ -386,17 +419,32 @@ nav {
 
 .fa-brands:hover,
 .icon:hover {
-  animation: pulse 1s;
-  background-color: rgb(152, 235, 214);
-  box-shadow: var(--bs2);
-  /* border: solid 0.05em var(--clr-accent); */
-
+  animation: pulse 2s infinite;
   border-radius: 5px;
 }
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 var(--hover);
+    box-shadow: var(--bs1);
+  }
+  45% {
+    box-shadow: var(--bs2);
+    background-color: rgb(152, 235, 214);
+  }
+  47% {
+    box-shadow: var(--bs2);
+    background-color: rgb(152, 235, 214);
+  }
+  51% {
+    box-shadow: var(--bs2-edge);
+    background-color: rgb(200, 235, 214);
+  }
+  55% {
+    box-shadow: var(--bs2);
+    background-color: rgb(152, 235, 214);
+  }
+  100% {
+    box-shadow: var(--bs1);
   }
 }
 
