@@ -19,24 +19,33 @@
             </button>
             <nav class="nav" >
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#technologies" class="nav__link">Technologies</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="#project" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#technologies" class="nav__link">Technologies</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#project" class="nav__link">My Projects</a></li>
                 </ul>
             </nav>
         </header>
 
         <!-- introduction -->
-        <section class="intro" id="home">
+        <section class="intro">
             <h1 class="section__title section__title--intro">
                 This is <strong>Gamers Parlour</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Back-end</p>
+            <p class="section__subtitle section__subtitle--intro">The Back-end</p>
             <img src="picture/projects/project_02/IMG_gamers-parlour-codeline.jpg" alt="Gamers Parlour Back-end screenshot of some query" class="intro__img">
         </section>
 
-        
+        <!-- content -->
+        <div class="portfolio-item-individual">
+            <p>This is the back-end of the Application Gamers Parlour. The API provide the information to the front end build on PSQL and deployed on Heroku.</p>
+            <img src="picture/projects/project_02/gamers-parlour-heroku.png" alt="screenshot showing some endpoints on heroku">
+            <p>this back-end was built using Express as a framework for Node.js and thoroughly tested using Jest.</p>
+            <img src="picture/projects/project_02/gamers-parlour-jest.png" alt="screenshot showing some test ran by Jest">
+            <p>For more informations, please visit the <a href="https://github.com/mr-joelM/gamers-parlour-backend#readme">GitHub Gamers Parlour Backend</a> public repo, this link will take you directly to the README.md where more details can be found regarding this project.</p>
+            <img src="picture/projects/project_02/gamers-parlour-BE-readme.png" alt="screenshot of the table of contents in the README">
+            
+        </div>
 
         <!-- footer -->
         <footer class="footer">
